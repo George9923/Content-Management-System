@@ -1,0 +1,21 @@
+{
+    "name": "geoprepe/cms",
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "classmap": [
+            "classes"
+        ],
+
+        "psr-4": {
+            "Geoprepe\\Cms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GeorgePrepelita1",
+            "email": "george.prepelita@tremend.com"
+        }
+    ]
+}
